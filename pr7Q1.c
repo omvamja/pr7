@@ -1,25 +1,22 @@
-/*
-	Q1
-	*/
 
 #include<stdio.h>
 
 add(){
-int a,b,c = 0;
+int x,y,z = 0;
 	printf("  Enter first number :-");
-	scanf("%d",&a);
+	scanf("%d",&x);
 	printf("  Enter second number :-");
-	scanf("%d",&b);
-c = a + b;
-	printf("  Addition of %d and %d is %d\n",a,b,c);}
+	scanf("%d",&y);
+z = x + y;
+	printf("  Addition of %d and %d is %d\n",x,y,z);}
 sub(){
-int d,e,f = 0;
+int y,e,f = 0;
 	printf("  Enter first number :-");
-	scanf("%d",&d);
+	scanf("%d",&y);
 	printf("  Enter second number :-");
 	scanf("%d",&e);
-f = d - e;
-	printf("  Subtraction of %d and %d is %d\n",d,e,f);}
+f = y - e;
+	printf("  Subtraction of %d and %d is %d\n",y,e,f);}
 
 mul(){
 int g,h,j = 0;
